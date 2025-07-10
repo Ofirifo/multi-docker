@@ -25,7 +25,7 @@ jobs:
       - run: docker build -t rallycoding/multi-server ./server
       - run: docker build -t rallycoding/multi-worker ./worker
 
-      - run: docker push rallycoding/multi-client
-      - run: docker push rallycoding/multi-nginx
-      - run: docker push rallycoding/multi-server
-      - run: docker push rallycoding/multi-worker
+      - run: docker push ofirifo/multi-client
+      - run: docker push ofirifo/multi-nginx
+      - run: docker push ofirifo/multi-server
+      - run: docker push ofirifo/multi-worker
